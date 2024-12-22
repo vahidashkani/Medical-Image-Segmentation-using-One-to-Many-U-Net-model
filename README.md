@@ -17,4 +17,7 @@ for the HC18 grand challenge dataset, 96.76% and 93.97% for the BIDMC site datas
 86.96% for the HK site dataset. Statistical analyses showed that the proposed model outperformed several
 other U-Net-based models.
 
-<img width="1091" alt="Screenshot 2024-12-22 at 9 51 09 AM" src="https://github.com/user-attachments/assets/9f18c8e8-6ea1-423f-8bce-cf0d4d34ce58" />
+Below figure llustrates the proposed dilated One-to-Many model.
+<img width="1091" alt="Screenshot 2024-12-22 at 9 51 09 AM" src="https://github.com/user-attachments/assets/5e894959-4f67-488c-8ae8-88206ada8b44" />
+
+
