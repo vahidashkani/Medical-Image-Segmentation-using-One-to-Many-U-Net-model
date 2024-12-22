@@ -20,4 +20,24 @@ other U-Net-based models.
 Below figure llustrates the proposed dilated One-to-Many model.
 <img width="1091" alt="Screenshot 2024-12-22 at 9 51 09 AM" src="https://github.com/user-attachments/assets/5e894959-4f67-488c-8ae8-88206ada8b44" />
 
+# Datasets: 
+We conducted the experiments on two datasets with different
+image types, including the HC18 Grand challenge dataset and the Multi-site MRI dataset. 
+HC18-Grand challenge dataset: This public dataset
+comprises 1334 two-dimensional ultrasound images to measure
+the fetal HC parameter. In this dataset, there are 999
+images manually annotated by an expert and 335 unannotated
+images. The resolution of all ultrasound images is 800 by 540
+pixels, with a pixel size ranging from 0.052 to 0.326 mm.
+Multi-site MRI dataset: The T2-weighted MRI dataset
+was collected for prostate identification purposes. This
+dataset is comprised of two public sources - sites E and F. 
+<img width="546" alt="Screenshot 2024-12-22 at 9 56 30 AM" src="https://github.com/user-attachments/assets/844c65f0-488a-420a-a42c-68cac033ce02" />
+
+# Results:
+<img width="634" alt="Screenshot 2024-12-22 at 9 57 57 AM" src="https://github.com/user-attachments/assets/22e93095-722d-4957-9c4e-d91451c0934b" />
+
+<img width="628" alt="Screenshot 2024-12-22 at 9 58 12 AM" src="https://github.com/user-attachments/assets/295b88ac-31d9-488c-80f4-5c5f803b309d" />
+
+
 
