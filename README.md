@@ -16,3 +16,5 @@ images. The proposed approach achieved Dice and Jaccard coefficients of 96.54% a
 for the HC18 grand challenge dataset, 96.76% and 93.97% for the BIDMC site dataset, and 92.58% and
 86.96% for the HK site dataset. Statistical analyses showed that the proposed model outperformed several
 other U-Net-based models.
+
+<img width="1091" alt="Screenshot 2024-12-22 at 9 51 09 AM" src="https://github.com/user-attachments/assets/9f18c8e8-6ea1-423f-8bce-cf0d4d34ce58" />
