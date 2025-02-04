@@ -60,6 +60,7 @@ model.save("/content/drive/MyDrive/Codes_HC18_Grand_Challenge_dataset/HK_augment
 
 # save logfile
 loss_history = history.history
+# a dictionary where the keys are column names (such as 'epoch', 'loss', 'val_loss', and 'lr').
 log_df = pd.DataFrame.from_dict(loss_history)
 log_df = log_df.drop(columns = ['lr'])
 #log_df = log_df[['dice_coefficient','jaccard_coefficient','loss','val_dice_coefficient','val_jaccard_coefficient','val_loss']]
