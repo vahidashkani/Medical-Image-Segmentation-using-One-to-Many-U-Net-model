@@ -27,7 +27,8 @@ class DataGenerator(tensorflow.keras.utils.Sequence):
         self.data_path = data_path
         self.n_channels = n_channels
         self.shuffle = shuffle
-        
+
+        # Reads all lines from the file and stores them as a list of strings 
         with open(data_path, 'r') as f:
             self.list_paths = f.readlines()
             
@@ -36,6 +37,7 @@ class DataGenerator(tensorflow.keras.utils.Sequence):
 
     def __len__(self):
         """Denotes the number of batches per epoch"""
+        #np.floor(): Floors the value to the nearest integer.
         return int(np.floor(len(self.list_paths)))
 
 
@@ -86,6 +88,9 @@ class DataGenerator(tensorflow.keras.utils.Sequence):
         rand_t = round(np.random.randint(-25, 25), 1)           
         
         # Affine transform
+        # define an affine transformation, which can be applied to images or 
+        #geometric data. An affine transformation consists of linear transformations (like rotation, scaling, and shear) 
+        #combined with translation.
         tf = transform.AffineTransform(rotation=rand_rs, shear=-rand_rs, 
                                        translation=rand_t)
         
