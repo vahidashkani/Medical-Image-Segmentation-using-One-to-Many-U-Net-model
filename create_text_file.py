@@ -8,8 +8,10 @@ mask_files = glob.glob("/content/drive/MyDrive/Codes_HC18_Grand_Challenge_datase
 image_files.sort()
 mask_files.sort()
 
+#zip(image_files, mask_files) pairs corresponding elements from the two lists.
 temp = list(zip(image_files, mask_files)) 
 random.shuffle(temp) 
+# zip(*temp) unpacks the shuffled pairs into two separate lists again.
 image_files, mask_files = zip(*temp) 
 
 
